@@ -12,7 +12,7 @@ async function salvaRelatorio(){
     
     await pagina.screenshot({path: 'captura.png'});
     
-    await navegador.close();
+    await navegador.close(); s
 }
 
 salvaRelatorio();
